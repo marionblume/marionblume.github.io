@@ -1,0 +1,93 @@
+* {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+#marion {}
+
+#navigation {
+  display: table;
+  width: 100%;
+}
+
+#navigation * {
+  display: table-cell;
+  vertical-align: bottom;
+  width: auto;
+}
+
+#navigation #marion {
+  font-size: xx-large;
+}
+
+#navigation .navelement {
+  font-size: large;
+  text-align: right;
+  width: 5em;
+}
+
+#home {
+  display: table;
+  width: 100%;
+}
+
+#home * {
+  display: table-cell;
+  width: 386px;
+}
+
+#home #image1 {
+  text-align: left;
+}
+
+#home #image2 {
+  text-align: center;
+}
+
+#home #image3 {
+  text-align: right;
+}
+
+#details #images {
+  display: table;
+  width: 100%;
+}
+
+#details #images * {
+  display: table-cell;
+  vertical-align: top;
+}
+
+#about {
+  display: none;
+  width: 100%;
+}
+
+#about h3 {
+  margin-bottom: 0;
+}
+
+#about ul {
+  list-style-type: none;
+  padding:0;
+  margin:0;
+}
+
+#about #left_column {
+  display: table-cell;
+  width: 50%;
+}
+
+#about #right_column {
+  display: table-cell;
+  width: 50%;
+}
+
+#contact {
+  display: none;
+}

@@ -1,0 +1,46 @@
+buildscript {
+	repositories {
+		jcenter()
+	}
+
+	dependencies {
+		classpath 'de.richsource.gradle.plugins:gwt-gradle-plugin:0.6'
+	}
+}
+
+apply plugin: 'gwt-compiler'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	gwt 'com.google.guava:guava-gwt:16.0.1'
+}
+
+gwt {
+	gwtVersion='2.7.0'
+	modules 'com.marionblume.Marion'
+	maxHeapSize='1024m'
+
+	src += files("src/main/resources")
+}
+
+task install << {
+	println 'installing...'
+	copy {
+		from 'build/gwt/out/marion'
+		into 'web/marion'
+	}
+	copy {
+		from 'src/main/webapp'
+		into 'web'
+	}
+	copy {
+		from 'src/main/resources'
+		into 'web/resources'
+	}
+}
+
+install.dependsOn compileGwt
+build.dependsOn install

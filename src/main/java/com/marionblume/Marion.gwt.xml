@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='marion'>
+	<inherits name="com.google.common.collect.Collect" />
+	<inherits name='com.google.gwt.user.theme.clean.Clean' />
+	<inherits name='com.google.gwt.user.User' />
+	<inherits name="com.google.gwt.resources.Resources" />
+
+	<!-- Specify the paths for translatable code -->
+	<source path="client" />
+
+	<!-- Specify the app entry point class. -->
+	<entry-point class="com.marionblume.client.Marion" />
+
+	<!-- Language Stuff -->
+	<extend-property name="locale" values="en_US" />
+	<set-property-fallback name="locale" value="en_US" />
+
+	<set-configuration-property name="locale.cookie"
+		value="locale" />
+	<set-configuration-property name="locale.queryparam"
+		value="locale" />
+	<set-configuration-property name="locale.usemeta"
+		value="Y" />
+	<set-configuration-property name="locale.useragent"
+		value="Y" />
+	<set-configuration-property name="locale.searchorder"
+		value="cookie,queryparam,meta,useragent" />
+
+	<!-- Do not inline images in the code, because this makes the code really
+		big. Apparently GWT does not do a very good job on there... all the tutorial
+		images were inlined and the code resulted in 1.2 MB, when it was 760 kB before
+		(always uncompressed). -->
+	<set-property name='ClientBundle.enableInlining' value='false' />
+</module>
