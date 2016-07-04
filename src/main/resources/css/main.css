@@ -31,6 +31,12 @@
   width: 5em;
 }
 
+#separator {
+  border: 0 solid black;
+  border-top: 2px dotted darkgray;
+  margin-bottom: 2em;
+}
+
 #home {
   display: table;
   width: 100%;
