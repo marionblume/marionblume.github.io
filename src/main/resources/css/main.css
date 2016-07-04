@@ -79,6 +79,7 @@
 #about {
   display: none;
   width: 100%;
+  font-size: large;
 }
 
 #about h3 {
