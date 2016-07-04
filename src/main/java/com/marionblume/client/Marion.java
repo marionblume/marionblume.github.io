@@ -91,7 +91,7 @@ public class Marion implements EntryPoint {
 		Element subtitle = Document.get().getElementById("subtitle");
 
 		Image image = new Image(resourcesPath + "images/" + nProject + "/" + nImage + ".jpg");
-		image.getElement().getStyle().setWidth(742, Unit.PX);
+		image.getElement().getStyle().setWidth(802, Unit.PX);
 		SimplePanel div = new SimplePanel();
 		div.setWidget(image);
 		bigImage.add(div);
@@ -100,9 +100,9 @@ public class Marion implements EntryPoint {
 
 		for (int i = 0; i < nSmallImages; i++) {
 			image = new Image(resourcesPath + "images/" + nProject + "/" + i + "_small.jpg");
-			image.getElement().getStyle().setWidth(220, Unit.PX);
-			image.getElement().getStyle().setMarginLeft(9, Unit.PX);
-			image.getElement().getStyle().setMarginBottom(9, Unit.PX);
+			image.getElement().getStyle().setWidth(188, Unit.PX);
+			image.getElement().getStyle().setMarginLeft(10, Unit.PX);
+			image.getElement().getStyle().setMarginBottom(10, Unit.PX);
 			image.getElement().getStyle().setCursor(Cursor.POINTER);
 			final int iFinal = i;
 			image.addClickHandler(new ClickHandler() {
