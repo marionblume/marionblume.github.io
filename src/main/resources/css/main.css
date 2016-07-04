@@ -66,6 +66,10 @@
   vertical-align: top;
 }
 
+#details #subtitle {
+  font-size: x-large;
+}
+
 #about {
   display: none;
   width: 100%;
