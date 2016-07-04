@@ -1,0 +1,21 @@
+The big image and the small images should fit together such that the big image
+is four times the height of a small image (plus margin). The following equations
+express these relationships:
+
+i)      x1 + 2 * (x2 + 10) = 1200
+ii)     y1 = 4 * y2 + 3 * 10
+iii)    x1 / y1 = k
+iv)     x2 / y2 = x1 / y1
+v)      k = 2350 / 1453
+
+x1 / y1: width / height of big image
+x2 / y2: width / height of small images
+10: margin between small images
+k: relationship between width and height of big and small images
+
+Input for Wolfram Alpha:
+x1 + 2 * (x2 + 10) = 1200, y1 = 4 * y2 + 3 * 10, x1 / y1 = k, x2 / y2 = x1 / y1, k = 2350 / 1453
+https://www.wolframalpha.com/input/?i=x1+%2B+2+*+(x2+%2B+10)+%3D+1200,+y1+%3D+4+*+y2+%2B+3+*+10,+x1+%2F+y1+%3D+k,+x2+%2F+y2+%3D+x1+%2F+y1,+k+%3D+2350+%2F+1453
+
+Output:
+k~~1.61734,   x1~~802.84,   x2~~188.58,   y1~~496.394,   y2~~116.599
