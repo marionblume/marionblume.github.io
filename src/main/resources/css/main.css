@@ -43,14 +43,17 @@
 
 #home #image1 {
   text-align: left;
+  cursor: pointer;
 }
 
 #home #image2 {
   text-align: center;
+  cursor: pointer;
 }
 
 #home #image3 {
   text-align: right;
+  cursor: pointer;
 }
 
 #details #images {
