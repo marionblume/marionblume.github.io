@@ -1,5 +1,8 @@
 <i>Tumblin Bottles</i>, 2016, transformed beer bottles
 <i>Penisring</i>, 2013, birch
-<i>Home made branch</i>, 2016, oak
+<i>Penisring</i>, 2013, birch
 <i>Verwirrungen</i>, 2015, print
+<i>Home made branch</i>, 2016, oak
+<i>Tumblin Branches</i>, 2016, branches
+<i>Tumblin branches</i>, 2016, branches
 <i>Adam & Eve</i>, 2015, iron, wood
