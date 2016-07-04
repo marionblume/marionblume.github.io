@@ -1,8 +1,8 @@
-Zweiheit, 2016, graduation show, Gerrit Rietveld Academie
-Zweiheit 6/7, 2016, aluminium, silver, glass, steel, remanium, cherry wood
-Zweiheit 6/7, 2016, glass, silver, cherry wood
-Zweiheit 7/7, 2016, aluminium, glass, silver, remanium, oak
-Zweiheit 3/7, 2016, aluminium, glass, silver, remanium, cherry wood
-Zweiheit 2/7, 2016, glass, silver, remanium, oak
-Zweiheit 1/7, 2016, glass, silver, remanium, cherry wood
-Zweiheit 4/7, 2016, aluminium, glass, silver, remanium, oak
+<i>Zweiheit</i>, 2016, graduation show, Gerrit Rietveld Academie
+<i>Zweiheit 6/7</i>, 2016, aluminium, silver, glass, steel, remanium, cherry wood
+<i>Zweiheit 6/7</i>, 2016, glass, silver, cherry wood
+<i>Zweiheit 7/7</i>, 2016, aluminium, glass, silver, remanium, oak
+<i>Zweiheit 3/7</i>, 2016, aluminium, glass, silver, remanium, cherry wood
+<i>Zweiheit 2/7</i>, 2016, glass, silver, remanium, oak
+<i>Zweiheit 1/7</i>, 2016, glass, silver, remanium, cherry wood
+<i>Zweiheit 4/7</i>, 2016, aluminium, glass, silver, remanium, oak
