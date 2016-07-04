@@ -93,4 +93,16 @@
 
 #contact {
   display: none;
+  width: 100%;
+}
+
+#contact #address {
+  display: table-cell;
+  width: 50%;
+  font-size: x-large;
+}
+
+#contact #legal {
+  display: table-cell;
+  width: 50%;
 }
