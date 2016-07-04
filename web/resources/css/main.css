@@ -31,6 +31,12 @@
   width: 5em;
 }
 
+#separator {
+  border: 0 solid black;
+  border-top: 2px dotted darkgray;
+  margin-bottom: 2em;
+}
+
 #home {
   display: table;
   width: 100%;
@@ -43,14 +49,17 @@
 
 #home #image1 {
   text-align: left;
+  cursor: pointer;
 }
 
 #home #image2 {
   text-align: center;
+  cursor: pointer;
 }
 
 #home #image3 {
   text-align: right;
+  cursor: pointer;
 }
 
 #details #images {
@@ -61,6 +70,10 @@
 #details #images * {
   display: table-cell;
   vertical-align: top;
+}
+
+#details #subtitle {
+  font-size: x-large;
 }
 
 #about {
@@ -90,4 +103,16 @@
 
 #contact {
   display: none;
+  width: 100%;
+}
+
+#contact #address {
+  display: table-cell;
+  width: 50%;
+  font-size: x-large;
+}
+
+#contact #legal {
+  display: table-cell;
+  width: 50%;
 }
