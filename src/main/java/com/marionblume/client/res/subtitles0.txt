@@ -3,6 +3,6 @@
 <i>Zweiheit 6/7</i>, 2016, glass, silver, cherry wood
 <i>Zweiheit 7/7</i>, 2016, aluminium, glass, silver, remanium, oak
 <i>Zweiheit 3/7</i>, 2016, aluminium, glass, silver, remanium, cherry wood
-<i>Zweiheit 2/7</i>, 2016, glass, silver, remanium, oak
-<i>Zweiheit 1/7</i>, 2016, glass, silver, remanium, cherry wood
-<i>Zweiheit 4/7</i>, 2016, aluminium, glass, silver, remanium, oak
+<i>Zweiheit 2/7</i>, 2016, glass, silver, oak
+<i>Zweiheit 1/7</i>, 2016, glass, silver, cherry wood
+<i>Zweiheit 4/7</i>, 2016, aluminium, glass, silver, steel, remanium, oak
