@@ -31,6 +31,10 @@
   width: 5em;
 }
 
+#navigation .navelement * {
+  color: black;
+}
+
 #separator {
   border: 0 solid black;
   border-top: 2px dotted darkgray;
