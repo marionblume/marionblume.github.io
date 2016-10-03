@@ -35,6 +35,9 @@ public class Marion implements EntryPoint {
 
 		@Source("res/subtitles2.txt")
 		TextResource subtitles2();
+
+		@Source("res/subtitles3.txt")
+		TextResource subtitles3();
 	}
 
 	String[][] subtitles;
@@ -57,7 +60,7 @@ public class Marion implements EntryPoint {
 				boolean isAbout = historyToken.endsWith("about");
 				boolean isContact = historyToken.endsWith("contact");
 
-				home.getStyle().setDisplay(isHome ? Display.TABLE : Display.NONE);
+				home.setAttribute("display", isHome ? "flex" : "none"); // Display.FLEX does not exist yet...
 				details.getStyle().setDisplay(isDetails ? Display.TABLE : Display.NONE);
 				about.getStyle().setDisplay(isAbout ? Display.TABLE : Display.NONE);
 				contact.getStyle().setDisplay(isContact ? Display.TABLE : Display.NONE);
@@ -77,6 +80,7 @@ public class Marion implements EntryPoint {
 		subtitles[0] = Resources.INSTANCE.subtitles0().getText().split("\\n");
 		subtitles[1] = Resources.INSTANCE.subtitles1().getText().split("\\n");
 		subtitles[2] = Resources.INSTANCE.subtitles2().getText().split("\\n");
+		subtitles[3] = Resources.INSTANCE.subtitles3().getText().split("\\n");
 	}
 
 	private void fillDetails(final int nProject, int nImage) {
