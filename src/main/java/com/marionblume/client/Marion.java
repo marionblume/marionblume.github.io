@@ -60,7 +60,7 @@ public class Marion implements EntryPoint {
 				boolean isAbout = historyToken.endsWith("about");
 				boolean isContact = historyToken.endsWith("contact");
 
-				home.setAttribute("display", isHome ? "flex" : "none"); // Display.FLEX does not exist yet...
+				home.getStyle().setProperty("display", isHome ? "flex" : "none"); // Display.FLEX does not exist yet...
 				details.getStyle().setDisplay(isDetails ? Display.TABLE : Display.NONE);
 				about.getStyle().setDisplay(isAbout ? Display.TABLE : Display.NONE);
 				contact.getStyle().setDisplay(isContact ? Display.TABLE : Display.NONE);
